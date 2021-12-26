@@ -80,6 +80,8 @@ if __name__ == '__main__':
 			webbrowser.open("youtube.com")
 		elif "open google" in query:
 			webbrowser.open("google.com")
+		elif "open spotify" in query:
+			webbrowser.open("open.spotify.com")
 
 
 		elif "play music" in query:
@@ -94,6 +96,8 @@ if __name__ == '__main__':
 		elif " open pycharm" in query:
 			pycharmpath ="C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021"
 			os.startfile(pycharmpath)
+		elif "exit" in query:
+			exit()
 		#elif "open command" in query:
 			# filelocation = "path of the particular file like above"
 			# os.startfile(filelocation)
